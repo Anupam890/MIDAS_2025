@@ -120,8 +120,8 @@ h6 {
 }
 
 #header {
-    padding: 20px 0;
-    height: 84px;
+    padding: 40px 0;
+  margin-top: 0%;
     transition: all .5s;
     z-index: 997;
     background: #fff;
@@ -132,7 +132,6 @@ h6 {
     font-size: 42px;
     margin: 0;
     padding: 0;
-    line-height: 1;
     font-family: montserrat, sans-serif;
     font-weight: 700
 }
@@ -154,7 +153,7 @@ h6 {
 
 #intro {
     width: 100%;
-    height: 60vh;
+    height: 40vh;
     position: relative;
     background: url(../img/intro-carousel/1.jpg) no-repeat;
     background-size: cover;
@@ -196,7 +195,7 @@ h6 {
 
 #intro .intro-content h2 span {
     color: #50d8af;
-    text-decoration: underline
+
 }
 
 #intro .intro-content .btn-get-started,
@@ -206,7 +205,7 @@ h6 {
     font-weight: 700;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 10px 32px;
+    padding: 10px 28px;
     border-radius: 2px;
     transition: .5s;
     margin: 10px;

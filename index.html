@@ -24,19 +24,18 @@
 </head>
 
 <body id="body">
-    <header id="header">
-        <div class="container">
-            <div id="logo" class="pull-left">
-                <img src="./public/assets/img/cutmLogo.jpg" class="nav-image" alt="logo" width="60px" height="60px">
+    <header id="header" style="height: 120px; margin-top: 0;">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+            <!-- Left Logo -->
+            <div id="logo-left">
+                <img src="./public/assets/img/cutmLogo.jpg" class="nav-image" alt="logo" width="60px" height="90px">
             </div>
+    
+            <!-- Navigation Menu -->
             <nav id="nav-menu-container">
-                <ul class="nav-menu">
+                <ul class="nav-menu" style="font-size: 30px;"> <!-- Adjust the font size as needed -->
                     <li class="menu-active"><a href="./">Home</a></li>
-                    <li class="menu-has-children "><a href="./organizing-committee.html">Committees</a>
-                        <!-- <ul>
-                            <li><a href="./organizing-committee.html">Organising Committee</a></li>
-                        </ul> -->
-                    </li>
+                    <li class="menu-has-children "><a href="./organizing-committee.html">Committees</a></li>
                     <li class="menu-has-children"><a href="#">Paper Submission</a>
                         <ul>
                             <li><a href="./callforPapers.html">Call for Papers</a></li>
@@ -48,45 +47,47 @@
                     <li class="menu-has-children"><a href="#">Sponsors</a>
                         <ul>
                             <li><a href="./sponsors.html">Our Sponsors</a></li>
-                            <li><a href="./callforsponsors.html">Call for Sponsors</a></li>
-
+                            <li><a href="./callforsponsors.html">Call for Sponsors</a></li>
                         </ul>
                     </li>
-
                     <li class="menu-has-children "><a href="#">Program</a>
                         <ul>
-                            <li><a href="./kenote-plenary">Kenote / Plenary Talk</a></li>
-                            <li><a href="./program-schedule">Program schedle</a></li>
-                            <li><a href="./session-chair">Session chair details</a></li>
-                            <li><a href="./conference-proceedings">Conference Proceedings</a></li>
+                            <li><a href="./keynote.html">Keynote / Plenary Talk</a></li>
+                            <li><a href="./programshedule.html">Program schedule</a></li>
+                            <li><a href="./sessionchairdetails.html">Session chair details</a></li>
+                            <li><a href="./conferenceprocedding.html">Conference Proceedings</a></li>
                             <li><a href="./placestovisit.html">Places to Visit</a></li>
                             <li><a href="./Accomodation.html">Accommodation</a></li>
                         </ul>
                     </li>
-
-
-                    <li class><a href="./contact.html">Contact Us</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
                 </ul>
-
             </nav>
+            
+    
+            <!-- Right Logo -->
+            <div id="logo-right">
+                <img src="./public/assets/img/midas_logo.jpg" class="nav-image" alt="logo" width="80px" height="80px">
+            </div>
         </div>
     </header>
+    
 
     <section id="intro">
-        <div class="intro-content mt-5">
-            <h2 class="mt-1" style="font-size: 25px;">
-                <h2 style="font-size: 25px;">1<sup>st </sup> International Conference</h2>
-            </h2>
-            <h2 style="font-size: 25px;" class="text-[#0c2e8a]">On</h2>
-            <h2 style="font-size: 25px;"> Machine Intelligence and Data Science</h2>
-            <h2 style="font-size: 25px;" class="text-warning">(MIDAS-2025)</h2>
-            <div>
-                <!-- <img src="./public/assets/img/midas_logo.jpg" alt="logo" class="w-25 "> -->
-                <!-- <a href="./program-schedule" class="btn-projects btn-primary scrollto">Program Scheduled</a> -->
-            </div>
-            <h2 style="font-size: 25px;">(21<sup>st</sup> - 22<sup>nd</sup> March,2025)</h2>
-            <h2 style="font-size: 25px;">at Paralakhemundi, India</h2>
-            <h3 style="font-size: 25px;" class="text-warning font-weight-bold"> (Mode of Conference: Hybrid)</h3>
+        <div class="intro-content mt-1">
+            <h2 style="font-size: 20px; line-height: 1; font-weight: bold; margin-bottom: 5px;">1<sup>st</sup> International Conference</h2>
+            <h2 style="font-size: 18px; color: #0c2e8a; line-height: 1; margin-bottom: 5px;">On</h2>
+            <h2 style="font-size: 28px; line-height: 1.2; font-weight: 900; margin-bottom: 5px;">Machine Intelligence and Data Science</h2>
+            <h2 style="font-size: 18px; line-height: 1.2; color: #FFC107; font-weight: bold; margin-bottom: 5px;">(MIDAS-2025)</h2>
+            <h2 style="font-size: 16px; line-height: 1.2; margin-bottom: 5px;">(21<sup>st</sup> - 22<sup>nd</sup> March, 2025)</h2>
+            <h2 style="font-size: 16px; line-height: 1.2; margin-bottom: 5px;">at Paralakhemundi, India</h2>
+            <h3 style="font-size: 16px; color: #FFC107; font-weight: bold; margin-bottom: 10px;">(Mode of Conference: Hybrid)</h3>
+            <h2 style="font-size: 22px; text-align: center; font-weight: 600; color: #0c2e8a; margin-bottom: 10px;">Organized By</h2>
+            <h3 style="font-size: 20px; color: #0D0D5B; font-family: 'Times New Roman', Times, serif; font-weight: 500; margin-bottom: 20px;">
+                School of Engineering and Technology <br> Centurion University of Technology and Management, Paralakhemundi, Odisha, India
+            </h3>
+            <h2 style="font-size: 20px; margin-top: 2px; font-weight: 600; margin-bottom: 5px;">Technically Co-sponsored by <span style="color: red; font-weight: 800;">Springer</span></h2>
+            <img src="./public/assets/img/springer_logo.png.jpg" alt="Springer Logo" style="width: 130px; height: auto; margin-bottom: 20px;">
         </div>
         <div id="intro-carousel" class="owl-carousel">
             <div class="item" style="background-image: url('http://icesic.com/public/assets/img/intro-carousel/1.jpg');"></div>
@@ -96,18 +97,21 @@
             <div class="item" style="background-image: url('http://icesic.com/public/assets/img/intro-carousel/5.jpg');"></div>
         </div>
     </section>
+    
+    
+    
     <main id="main">
 
-        <section id="about" class="wow fadeInUp">
+        <!-- <section id="about" class="wow fadeInUp">
             <div class="container text-center">
                 <h2 style="font-size: 30px; text-align: center; font-weight: 600; color: #0c2e8a;">Organized By</h2>
-                <h3 style="color: rgb(13, 13, 91); font-family: 'Times New Roman', Times, serif; font-weight: 500;">
+                <h3 style="color: rgb(13, 13, 91); font-family: 'Times New Roman', Times, serif; font-weight: 500; font-size: medium;">
                     School of Engineering and Technology <br> Centurion University of Technology and Management, Paralakhemundi, Odisha, India
                 </h3>
                 <h2 style="font-size: 20px; margin-top: 40px; font-weight: 600;">Technically Co-sponsored by <span style="color: red; font-weight: 800; font-size: larger;">Springer</span></h2>
                 <img src="./public/assets/img/springer_logo.png.jpg" alt="Springer Logo" class="w-25" style="margin-top: 8px;">
             </div>
-        </section>
+        </section> -->
         <section id="testimonials" class="wow fadeInUp">
             <div class="container">
                 <div class="section-header">
@@ -276,23 +280,7 @@
 
 
 
-            <section id="call-to-action" class="wow fadeInUp">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-9 text-center text-lg-left">
-                            <h3 class="cta-title">Paper Submission</h3>
-                            <p style="text-align: justify; line-height: 2;" class="cta-text">
-
-                                Prospective authors are invited to submit original full-length research papers (which are not submitted/ published/ under review in other conferences/ journals), adhering to the Author Guidelines mentioned on the conference website.
-
-                            </p>
-                        </div>
-                        <div class="col-lg-3 cta-btn-container text-center">
-                            <a class="cta-btn align-middle" href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FMIDAS2024">Submit a Paper</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+         
 
             <!-- <section id="testimonials" class="wow fadeInUp">
             <div class="container">
