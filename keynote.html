@@ -1,331 +1,566 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>MIDAS</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content name="keywords" />
+    <meta content name="description" />
 
-<head>
-  <meta charset="utf-8" />
-  <title>MIDAS</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <meta content name="keywords" />
-  <meta content name="description" />
+    <link href="img/favicon.png" rel="icon" />
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <link href="img/favicon.png" rel="icon" />
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fc33bdc8f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://icesic.com/public/assets/lib/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://icesic.com/public/assets/lib/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://icesic.com/public/assets/lib/animate/animate.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://icesic.com/public/assets/lib/ionicons/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://icesic.com/public/assets/lib/owlcarousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://icesic.com/public/assets/lib/magnific-popup/magnific-popup.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://icesic.com/public/assets/lib/ionicons/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://icesic.com/public/assets/css/style.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700"
-    rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/fc33bdc8f2.js" crossorigin="anonymous"></script>
-  <link href="https://icesic.com/public/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://icesic.com/public/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-  <link href="https://icesic.com/public/assets/lib/animate/animate.min.css" rel="stylesheet" />
-  <link href="https://icesic.com/public/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
-  <link href="https://icesic.com/public/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-  <link href="https://icesic.com/public/assets/lib/magnific-popup/magnific-popup.css" rel="stylesheet" />
-  <link href="https://icesic.com/public/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
-  <link href="https://icesic.com/public/assets/css/style.css" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-
-<body id="body">
-  <header id="header">
-    <div class="container">
-      <div id="logo" class="pull-left">
-        <h1>
-          <a href="./" class="scrollto">MID<span>AS</span></a>
-        </h1>
-      </div>
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class><a href="./">Home</a></li>
-          <li class="menu-has-children">
-            <a href="./organizing-committee.html">Committees</a>
-            <!-- <ul>
+  <body id="body">
+    <header id="header">
+      <div class="container">
+        <div id="logo" class="pull-left">
+          <h1>
+            <a href="./" class="scrollto">MID<span>AS</span></a>
+          </h1>
+        </div>
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li class><a href="./">Home</a></li>
+            <li class="menu-has-children">
+              <a href="./organizing-committee.html">Committees</a>
+              <!-- <ul>
                             <li><a href="./organizing-committee.html">Organising Committee</a></li>
 
                         </ul> -->
-          </li>
-          <li class="menu-has-children">
-            <a href="#">Paper Submission</a>
-            <ul>
-              <li><a href="./callforPapers.html">Call for Papers</a></li>
-              <li><a href="./papersubmission.html">Author Guidelines</a></li>
-              <li><a href="./Importantdates.html">Important Dates</a></li>
-              <li><a href="./registration.html">Registration</a></li>
-            </ul>
-          </li>
-          <li class="menu-has-children">
-            <a href="#">Sponsors</a>
-            <ul>
-              <li><a href="./sponsors.html">Our Sponsors</a></li>
-              <li><a href="./callforsponsors.html">Call for Sponsors</a></li>
-            </ul>
-          </li>
+            </li>
+            <li class="menu-has-children">
+              <a href="#">Paper Submission</a>
+              <ul>
+                <li><a href="./callforPapers.html">Call for Papers</a></li>
+                <li><a href="./papersubmission.html">Author Guidelines</a></li>
+                <li><a href="./Importantdates.html">Important Dates</a></li>
+                <li><a href="./registration.html">Registration</a></li>
+              </ul>
+            </li>
+            <li class="menu-has-children">
+              <a href="#">Sponsors</a>
+              <ul>
+                <li><a href="./sponsors.html">Our Sponsors</a></li>
+                <li><a href="./callforsponsors.html">Call for Sponsors</a></li>
+              </ul>
+            </li>
 
-          <li class="menu-has-children">
-            <a href="#">Program</a>
-            <ul>
-              <li><a href="./keynote.html">Keynote / Plenary Talk</a></li>
-              <li><a href="./programshedule.html">Program schedle</a></li>
-              <li>
-                <a href="./sessionchairdetails.html">Session chair details</a>
-              </li>
-              <li>
-                <a href="./conferenceprocedding.html">Conference Proceedings</a>
-              </li>
+            <li class="menu-has-children">
+              <a href="#">Program</a>
+              <ul>
+                <li><a href="./keynote.html">Keynote / Plenary Talk</a></li>
+                <li><a href="./programshedule.html">Program schedle</a></li>
+                <li>
+                  <a href="./sessionchairdetails.html">Session chair details</a>
+                </li>
+                <li>
+                  <a href="./conferenceprocedding.html"
+                    >Conference Proceedings</a
+                  >
+                </li>
 
-              <li><a href="./placestovisit.html">Places to Visit</a></li>
-              <li><a href="./Accomodation.html">Accommodation</a></li>
-            </ul>
-          </li>
+                <li><a href="./placestovisit.html">Places to Visit</a></li>
+                <li><a href="./Accomodation.html">Accommodation</a></li>
+              </ul>
+            </li>
 
-          <li class><a href="./contact.html">Contact Us</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+            <li class><a href="./contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <main id="main">
-    <section id="testimonials" class="wow fadeInUp">
-      <div class="container">
-        <div class="section-header">
-          <h2>KeyNote / Plenary Talk</h2>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="container mt-5">
-                <div class="card p-4 mb-3 d-flex flex-column flex-md-row align-items-start">
-                  <!-- Main Image on the Left -->
-                  <img src="./public/assets/img/vincenzo.jpg" alt="Prof. Celestine Iwendi"
-                    class="img-fluid rounded me-md-4 mb-3 mb-md-0" style="width: 150px; height: 150px;">
-                  <div>
-                    <!-- Basic Info -->
-                    <h3 style="font-weight: bold;">Prof. (Dr.) Vincenzo Piuri</h3>
-                    <p>
-                      <b>Professor, Computer Engineering<br>
-                        <!-- Head of the Centre of Intelligence of Things, <br> -->
-                        University of Milan, Italy</b>
-                    </p>
-                    <!-- Toggle Button -->
-                    <button class="btn btn-primary" type="button" id="toggleButton1" onclick="toggleDetails(1)">
-                      Show More
-                    </button>
-                    <!-- Collapsible Section -->
-                    <div class="collapse mt-3" id="bioDetails1">
-                      <div class="d-flex flex-column flex-md-row align-items-start mb-3">
-                        <div>
-                          <p style="text-align: justify;">
-                            <b>Prof. (Dr.) Vincenzo Piuri</b><br>
-                            <!-- SMIEEE, FHEA, FIMC<br><br> -->
-                            Vincenzo Piuri has received his Ph.D. in computer engineering at Polytechnic of Milan, Italy
-                            (1989). He is Full Professor in computer engineering at the University of Milan, Italy
-                            (since 2000). He has been Associate Professor at Polytechnic of Milan, Italy and Visiting
-                            Professor at the University of Texas at Austin, USA, and visiting researcher at George Mason
-                            University, USA.
-                            His main research interests are: artificial intelligence, computational intelligence,
-                            machine learning, pattern analysis and recognition, intelligent systems, signal and image
-                            processing, biometrics, intelligent measurement systems, industrial applications, digital
-                            processing architectures, fault tolerance, cloud computing infrastructures, and
-                            internet-of-things. Original results have been published in 400+ papers in international
-                            journals, proceedings of international conferences, books, and book chapters.
-                            He is Fellow of the IEEE, Distinguished Scientist of ACM, and Senior Member of INNS. He is
-                            IEEE Region 8 Past Director (2025-26), and has been IEEE Region 8 Director (2023-24), IEEE
-                            Vice President for Technical Activities (2015), IEEE Director, President of the IEEE Systems
-                            Council, President of the IEEE Computational Intelligence Society, Vice President for
-                            Education of the IEEE Biometrics Council, Vice President for Publications of the IEEE
-                            Instrumentation and Measurement Society and the IEEE Systems Council, and Vice President for
-                            Membership of the IEEE Computational Intelligence Society.
-                            He has been Editor-in-Chief of the IEEE Systems Journal (2013-19). He is Associate Editor of
-                            IEEE Open Journal on Systems Engineering and has been Associate Editor of the IEEE
-                            Transactions on Computers, the IEEE Transactions on Cloud Computing, the IEEE Transactions
-                            on Neural Networks, the IEEE Transactions on Instrumentation and Measurement, and IEEE
-                            Access.
-                            He received the IEEE Instrumentation and Measurement Society Technical Award (2002), the
-                            IEEE TAB Hall of Honor (2019), and the Rudolf Kalman Professor Title of the Obuda
-                            University, Hungary. He is Honorary Professor at: Obuda University, Hungary; Guangdong
-                            University of Petrochemical Technology, China; Northeastern University, China; Muroran
-                            Institute of Technology, Japan; Amity University, India; Galgotias University, India;
-                            Chandigarh University, India; and BIHER, India.
-                            <br><br>
-                            <b>Keynote Date and Time</b><br>
-                            Date: 21st March 2025 (Friday)<br>
-                            Time: 12.30PM-1.30PM
-                          </p>
+    <main id="main">
+      <section id="testimonials" class="wow fadeInUp">
+        <div class="container">
+          <div class="section-header">
+            <h2>KeyNote / Plenary Talk</h2>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="container mt-5">
+                  <div
+                    class="card p-4 mb-3 d-flex flex-column flex-md-row align-items-start"
+                  >
+                    <!-- Main Image on the Left -->
+                    <img
+                      src="./public/assets/img/vincenzo.jpg"
+                      alt="Prof. Celestine Iwendi"
+                      class="img-fluid rounded me-md-4 mb-3 mb-md-0"
+                      style="width: 150px; height: 150px"
+                    />
+                    <div>
+                      <!-- Basic Info -->
+                      <h3 style="font-weight: bold">
+                        Prof. (Dr.) Vincenzo Piuri
+                      </h3>
+                      <p>
+                        <b
+                          >Professor, Computer Engineering<br />
+                          <!-- Head of the Centre of Intelligence of Things, <br> -->
+                          University of Milan, Italy</b
+                        >
+                      </p>
+                      <!-- Toggle Button -->
+                      <button
+                        class="btn btn-primary"
+                        type="button"
+                        id="toggleButton1"
+                        onclick="toggleDetails(1)"
+                      >
+                        Show More
+                      </button>
+                      <!-- Collapsible Section -->
+                      <div class="collapse mt-3" id="bioDetails1">
+                        <div
+                          class="d-flex flex-column flex-md-row align-items-start mb-3"
+                        >
+                          <div>
+                            <p style="text-align: justify">
+                              <b>Prof. (Dr.) Vincenzo Piuri</b><br />
+                              <!-- SMIEEE, FHEA, FIMC<br><br> -->
+                              Vincenzo Piuri has received his Ph.D. in computer
+                              engineering at Polytechnic of Milan, Italy (1989).
+                              He is Full Professor in computer engineering at
+                              the University of Milan, Italy (since 2000). He
+                              has been Associate Professor at Polytechnic of
+                              Milan, Italy and Visiting Professor at the
+                              University of Texas at Austin, USA, and visiting
+                              researcher at George Mason University, USA. His
+                              main research interests are: artificial
+                              intelligence, computational intelligence, machine
+                              learning, pattern analysis and recognition,
+                              intelligent systems, signal and image processing,
+                              biometrics, intelligent measurement systems,
+                              industrial applications, digital processing
+                              architectures, fault tolerance, cloud computing
+                              infrastructures, and internet-of-things. Original
+                              results have been published in 400+ papers in
+                              international journals, proceedings of
+                              international conferences, books, and book
+                              chapters. He is Fellow of the IEEE, Distinguished
+                              Scientist of ACM, and Senior Member of INNS. He is
+                              IEEE Region 8 Past Director (2025-26), and has
+                              been IEEE Region 8 Director (2023-24), IEEE Vice
+                              President for Technical Activities (2015), IEEE
+                              Director, President of the IEEE Systems Council,
+                              President of the IEEE Computational Intelligence
+                              Society, Vice President for Education of the IEEE
+                              Biometrics Council, Vice President for
+                              Publications of the IEEE Instrumentation and
+                              Measurement Society and the IEEE Systems Council,
+                              and Vice President for Membership of the IEEE
+                              Computational Intelligence Society. He has been
+                              Editor-in-Chief of the IEEE Systems Journal
+                              (2013-19). He is Associate Editor of IEEE Open
+                              Journal on Systems Engineering and has been
+                              Associate Editor of the IEEE Transactions on
+                              Computers, the IEEE Transactions on Cloud
+                              Computing, the IEEE Transactions on Neural
+                              Networks, the IEEE Transactions on Instrumentation
+                              and Measurement, and IEEE Access. He received the
+                              IEEE Instrumentation and Measurement Society
+                              Technical Award (2002), the IEEE TAB Hall of Honor
+                              (2019), and the Rudolf Kalman Professor Title of
+                              the Obuda University, Hungary. He is Honorary
+                              Professor at: Obuda University, Hungary; Guangdong
+                              University of Petrochemical Technology, China;
+                              Northeastern University, China; Muroran Institute
+                              of Technology, Japan; Amity University, India;
+                              Galgotias University, India; Chandigarh
+                              University, India; and BIHER, India.
+                              <br /><br />
+                              <b>Keynote Date and Time</b><br />
+                              Date: 21st March 2025 (Friday)<br />
+                              Time: 12.30PM-1.30PM
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="card p-4 mb-3 d-flex flex-column flex-md-row align-items-start">
-                  <!-- Main Image on the Left -->
-                  <img src="./public/assets/img/speaker.jpg" alt="Prof. Celestine Iwendi"
-                    class="img-fluid rounded me-md-4 mb-3 mb-md-0" style="width: 150px; height: 150px;">
-                  <div>
-                    <!-- Basic Info -->
-                    <h3 style="font-weight: bold;">Prof. (Dr.) Celestine Iwendi</h3>
-                    <p>
-                      <b>Professor, Artificial Intelligence and <br>
-                        Head of the Centre of Intelligence of Things, <br>
-                        University of Bolton, UK</b>
-                    </p>
-                    <!-- Toggle Button -->
-                    <button class="btn btn-primary" type="button" id="toggleButton2" onclick="toggleDetails(2)">
-                      Show More
-                    </button>
-                    <!-- Collapsible Section -->
-                    <div class="collapse mt-3" id="bioDetails2">
-                      <div class="d-flex flex-column flex-md-row align-items-start mb-3">
-                        <div>
-                          <p style="text-align: justify;">
-                            <b>Prof. (Dr.) Celestine Iwendi</b><br>
-                            SMIEEE, FHEA, FIMC<br><br>
-                            Professor Celestine Iwendi is an IEEE Brand Ambassador, Professor of Artificial Intelligence
-                            and the Head of the Centre of Intelligence of Things (CIoTh) at the University of Bolton.
-                            With a PhD in Electronics Engineering, he has over 25 years of technical expertise in
-                            wireless sensor networks, AI, ML, and IoT. As a Senior Member of IEEE and Chartered
-                            Engineer,
-                            Celestine has developed testing procedures, provided technical support, and ensured safety
-                            compliance for electronic systems. He has received prestigious recognition from the Royal
-                            Academy of Engineering under the Exceptional Talent Scheme for his contributions to AI and
-                            medical applications, and has been featured in Elsevier's World's Top 2% Influential
-                            Scientists list for four consecutive years.<br><br>
-                            His research spans 13 of the 17 UN SDGs, with 92.6% of his work internationally co-authored,
-                            and 60.7% of his publications ranking among the top 25% most-cited globally. He is also a
-                            Visiting Professor at five universities worldwide. Celestine is the Chair of the Election
-                            Committee of IEEE Computer Society Worldwide 2024. He is the IEEE University of Bolton
-                            Student Branch Counsellor and a former Board Member of IEEE Sweden Section, a Fellow of The
-                            Higher Education Academy in the United Kingdom, and a Fellow of the Institute of Management
-                            Consultants. Additionally, Celestine is an Ambassador in the prestigious Manchester
-                            Conference Ambassador Programme.<br><br>
-                            <b>Keynote Date and Time</b><br>
-                            Date: 22nd March 2025 (Saturday)<br>
-                            Time: 12.00PM - 1.00PM
-                          </p>
+                  <div
+                    class="card p-4 mb-3 d-flex flex-column flex-md-row align-items-start"
+                  >
+                    <!-- Main Image on the Left -->
+                    <img
+                      src="./public/assets/img/speaker.jpg"
+                      alt="Prof. Celestine Iwendi"
+                      class="img-fluid rounded me-md-4 mb-3 mb-md-0"
+                      style="width: 150px; height: 150px"
+                    />
+                    <div>
+                      <!-- Basic Info -->
+                      <h3 style="font-weight: bold">
+                        Prof. (Dr.) Celestine Iwendi
+                      </h3>
+                      <p>
+                        <b
+                          >Professor, Artificial Intelligence and <br />
+                          Head of the Centre of Intelligence of Things, <br />
+                          University of Bolton, UK</b
+                        >
+                      </p>
+                      <!-- Toggle Button -->
+                      <button
+                        class="btn btn-primary"
+                        type="button"
+                        id="toggleButton2"
+                        onclick="toggleDetails(2)"
+                      >
+                        Show More
+                      </button>
+                      <!-- Collapsible Section -->
+                      <div class="collapse mt-3" id="bioDetails2">
+                        <div
+                          class="d-flex flex-column flex-md-row align-items-start mb-3"
+                        >
+                          <div>
+                            <p style="text-align: justify">
+                              <b>Prof. (Dr.) Celestine Iwendi</b><br />
+                              SMIEEE, FHEA, FIMC<br /><br />
+                              Professor Celestine Iwendi is an IEEE Brand
+                              Ambassador, Professor of Artificial Intelligence
+                              and the Head of the Centre of Intelligence of
+                              Things (CIoTh) at the University of Bolton. With a
+                              PhD in Electronics Engineering, he has over 25
+                              years of technical expertise in wireless sensor
+                              networks, AI, ML, and IoT. As a Senior Member of
+                              IEEE and Chartered Engineer, Celestine has
+                              developed testing procedures, provided technical
+                              support, and ensured safety compliance for
+                              electronic systems. He has received prestigious
+                              recognition from the Royal Academy of Engineering
+                              under the Exceptional Talent Scheme for his
+                              contributions to AI and medical applications, and
+                              has been featured in Elsevier's World's Top 2%
+                              Influential Scientists list for four consecutive
+                              years.<br /><br />
+                              His research spans 13 of the 17 UN SDGs, with
+                              92.6% of his work internationally co-authored, and
+                              60.7% of his publications ranking among the top
+                              25% most-cited globally. He is also a Visiting
+                              Professor at five universities worldwide.
+                              Celestine is the Chair of the Election Committee
+                              of IEEE Computer Society Worldwide 2024. He is the
+                              IEEE University of Bolton Student Branch
+                              Counsellor and a former Board Member of IEEE
+                              Sweden Section, a Fellow of The Higher Education
+                              Academy in the United Kingdom, and a Fellow of the
+                              Institute of Management Consultants. Additionally,
+                              Celestine is an Ambassador in the prestigious
+                              Manchester Conference Ambassador Programme.<br /><br />
+                              <b>Keynote Date and Time</b><br />
+                              Date: 22nd March 2025 (Saturday)<br />
+                              Time: 12.00PM - 1.00PM
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="card p-4 d-flex flex-column mb-3 flex-md-row align-items-start">
-                  <!-- Main Image on the Left -->
-                  <img src="./public/assets/img/swagatamdas.jpg" alt="Prof. (Dr.) Swagatam Das"
-                    class="img-fluid rounded me-md-4 mb-3 mb-md-0" style="width: 150px; height: 150px;">
-                  <div>
-                    <!-- Basic Info -->
-                    <h3 style="font-weight: bold;">Prof. (Dr.) Swagatam Das</h3>
-                    <p>
-                      <b>Professor-in-Charge, Computer and Communication Sciences Division,<br>
-                        Professor, Electronics and Communication Sciences Unit, <br>
-                        Indian Statistical Institute, Kolkata, India</b>
-                    </p>
-                    <!-- Toggle Button -->
-                    <button class="btn btn-primary" type="button" id="toggleButton3" onclick="toggleDetails(3)">
-                      Show More
-                    </button>
-                    <!-- Collapsible Section -->
-                    <div class="collapse mt-3" id="bioDetails3">
-                      <div class="d-flex flex-column flex-md-row align-items-start mb-3">
-                        <div>
-                          <p style="text-align: justify;">
-                            <b>Prof. (Dr.) Swagatam Das</b><br>
-                            <!-- SMIEEE, FHEA, FIMC<br><br> -->
-                            Professor Swagatam Das earned his B.E. in Electronics and Telecommunications Engineering,
-                            M.E. with a specialization in Control Engineering, and Ph.D.(Engineering) degrees from
-                            Jadavpur University, India, in the years 2003, 2005, and 2009, respectively. He is currently
-                            a professor at the Electronics and Communication Sciences Unit (ECSU) of the Indian
-                            Statistical Institute, Kolkata, India. He is also serving as the Professor-in-Charge of the
-                            Computer and Communication Sciences Division (CCSD) of his Institute for the term 2024 - 26.
-                            He previously held the position of Professor and Deputy Director at the Institute for
-                            Advancing Intelligence (IAI), TCG CREST, Kolkata, India, from April 01, 2023, to March 31,
-                            2024. His research interests encompass deep learning and non-convex optimization, and he has
-                            published over 400 research articles in peer-reviewed journals and international
-                            conferences. Dr. Das is the founding Co-Editor-in-Chief of Swarm and Evolutionary
-                            Computation, an international journal by Elsevier. He has served or is currently serving as
-                            an Associate Editor for several prominent journals, including the IEEE Transactions on
-                            Neural Networks and Learning Systems, IEEE Transactions on Cybernetics, IEEE Transactions on
-                            Evolutionary Computation, Pattern Recognition (Elsevier), Neurocomputing (Elsevier),
-                            Information Sciences (Elsevier), IEEE Trans. on Systems, Man, and Cybernetics: Systems,
-                            among others. He is a member of the editorial board of Information Fusion (Elsevier),
-                            Progress in Artificial Intelligence (Springer), Applied Soft Computing (Elsevier),
-                            Engineering Applications of Artificial Intelligence (Elsevier), and so on. Dr. Das has
-                            received over 33,000 Google Scholar citations and an H-index of 87 to date. He has actively
-                            participated in the program committees and organizing committees of renowned international
-                            conferences such as NeurIPS, AAAI, AISTATS, ACM Multimedia, BMVC, IEEE CEC, GECCO, and more.
-                            He currently serves as an ACM Distinguished Speaker. He received the 2012 Young Engineer
-                            Award from the Indian National Academy of Engineering (INAE) and the 2015 Thomson Reuters
-                            Research Excellence India Citation Award for being the highest-cited researcher in
-                            Engineering and Computer Science in India between 2010 and 2014.<br><br>
-                            <b>Keynote Date and Time</b><br>
-                            Date: 21st March 2025(Friday)<br>
-                            Time: 11.00AM-12.00PM
-                          </p>
+                  <div
+                    class="card p-4 d-flex flex-column mb-3 flex-md-row align-items-start"
+                  >
+                    <!-- Main Image on the Left -->
+                    <img
+                      src="./public/assets/img/swagatamdas.jpg"
+                      alt="Prof. (Dr.) Swagatam Das"
+                      class="img-fluid rounded me-md-4 mb-3 mb-md-0"
+                      style="width: 150px; height: 150px"
+                    />
+                    <div>
+                      <!-- Basic Info -->
+                      <h3 style="font-weight: bold">
+                        Prof. (Dr.) Swagatam Das
+                      </h3>
+                      <p>
+                        <b
+                          >Professor-in-Charge, Computer and Communication
+                          Sciences Division,<br />
+                          Professor, Electronics and Communication Sciences
+                          Unit, <br />
+                          Indian Statistical Institute, Kolkata, India</b
+                        >
+                      </p>
+                      <!-- Toggle Button -->
+                      <button
+                        class="btn btn-primary"
+                        type="button"
+                        id="toggleButton3"
+                        onclick="toggleDetails(3)"
+                      >
+                        Show More
+                      </button>
+                      <!-- Collapsible Section -->
+                      <div class="collapse mt-3" id="bioDetails3">
+                        <div
+                          class="d-flex flex-column flex-md-row align-items-start mb-3"
+                        >
+                          <div>
+                            <p style="text-align: justify">
+                              <b>Prof. (Dr.) Swagatam Das</b><br />
+                              <!-- SMIEEE, FHEA, FIMC<br><br> -->
+                              Professor Swagatam Das earned his B.E. in
+                              Electronics and Telecommunications Engineering,
+                              M.E. with a specialization in Control Engineering,
+                              and Ph.D.(Engineering) degrees from Jadavpur
+                              University, India, in the years 2003, 2005, and
+                              2009, respectively. He is currently a professor at
+                              the Electronics and Communication Sciences Unit
+                              (ECSU) of the Indian Statistical Institute,
+                              Kolkata, India. He is also serving as the
+                              Professor-in-Charge of the Computer and
+                              Communication Sciences Division (CCSD) of his
+                              Institute for the term 2024 - 26. He previously
+                              held the position of Professor and Deputy Director
+                              at the Institute for Advancing Intelligence (IAI),
+                              TCG CREST, Kolkata, India, from April 01, 2023, to
+                              March 31, 2024. His research interests encompass
+                              deep learning and non-convex optimization, and he
+                              has published over 400 research articles in
+                              peer-reviewed journals and international
+                              conferences. Dr. Das is the founding
+                              Co-Editor-in-Chief of Swarm and Evolutionary
+                              Computation, an international journal by Elsevier.
+                              He has served or is currently serving as an
+                              Associate Editor for several prominent journals,
+                              including the IEEE Transactions on Neural Networks
+                              and Learning Systems, IEEE Transactions on
+                              Cybernetics, IEEE Transactions on Evolutionary
+                              Computation, Pattern Recognition (Elsevier),
+                              Neurocomputing (Elsevier), Information Sciences
+                              (Elsevier), IEEE Trans. on Systems, Man, and
+                              Cybernetics: Systems, among others. He is a member
+                              of the editorial board of Information Fusion
+                              (Elsevier), Progress in Artificial Intelligence
+                              (Springer), Applied Soft Computing (Elsevier),
+                              Engineering Applications of Artificial
+                              Intelligence (Elsevier), and so on. Dr. Das has
+                              received over 33,000 Google Scholar citations and
+                              an H-index of 87 to date. He has actively
+                              participated in the program committees and
+                              organizing committees of renowned international
+                              conferences such as NeurIPS, AAAI, AISTATS, ACM
+                              Multimedia, BMVC, IEEE CEC, GECCO, and more. He
+                              currently serves as an ACM Distinguished Speaker.
+                              He received the 2012 Young Engineer Award from the
+                              Indian National Academy of Engineering (INAE) and
+                              the 2015 Thomson Reuters Research Excellence India
+                              Citation Award for being the highest-cited
+                              researcher in Engineering and Computer Science in
+                              India between 2010 and 2014.<br /><br />
+                              <b>Keynote Date and Time</b><br />
+                              Date: 21st March 2025(Friday)<br />
+                              Time: 11.00AM-12.00PM
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="card p-4 mb-3 d-flex flex-column flex-md-row align-items-start"
+                  >
+                    <!-- Main Image on the Left -->
+                    <img
+                      src="./public/assets/img/mihir.jpg"
+                      alt="Prof. (Dr.) Mihir Narayan Mohanty"
+                      class="img-fluid rounded me-md-4 mb-3 mb-md-0"
+                      style="width: 150px; height: 150px"
+                    />
+                    <div>
+                      <!-- Basic Info -->
+                      <h3 style="font-weight: bold">
+                        Prof. (Dr.) Mihir Narayan Mohanty
+                      </h3>
+                      <p>
+                        <b
+                          >Professor, Electronics and Communication
+                          Engineering<br />
+                          <!-- Head of the Centre of Intelligence of Things, <br> -->
+                          Institute of Technical Education and Research,
+                          Bhubaneswar, India</b
+                        >
+                      </p>
+                      <!-- Toggle Button -->
+                      <button
+                        class="btn btn-primary"
+                        type="button"
+                        id="toggleButton4"
+                        onclick="toggleDetails(4)"
+                      >
+                        Show More
+                      </button>
+                      <!-- Collapsible Section -->
+                      <div class="collapse mt-3" id="bioDetails4">
+                        <div
+                          class="d-flex flex-column flex-md-row align-items-start mb-3"
+                        >
+                          <div>
+                            <p style="text-align: justify">
+                              <b>Prof. (Dr.) Mihir Narayan Mohanty</b><br />
+                              <!-- SMIEEE, FHEA, FIMC<br><br> -->
+                              Dr. Mihir Narayan Mohanty is presently working as
+                              a Professor in the Department of Electronics and
+                              Communication Engineering, Institute of Technical
+                              Education and Research, Siksha ‘O’ Anusandhan
+                              (Deemed to be University), Bhubaneswar, Odisha,
+                              India. He has received his M.Tech. Degree in
+                              Communication System Engineering from the
+                              Sambalpur University, Sambalpur, Odisha and done
+                              his Ph.D. work in Applied Signal Processing. He
+                              has published over 440 papers in
+                              International/National Journals and Conferences
+                              along with approximately 27 years of teaching
+                              experience. He is the active member of many
+                              professional societies like IEEE Senior Member,
+                              IET, EMC &amp; EMI Engineers India, ISCA, ACEEE,
+                              IAEng, CSI and also Fellow of IETE and IE (I). His
+                              area of research interests includes Machine
+                              Learning, Deep Learning, Applied Signal, Data
+                              Analysis using Expert Systems, Image Processing,
+                              and Biomedical Signal Processing
+
+                              <br /><br />
+                              <b>Keynote Date and Time</b><br />
+                              Date: 22nd March 2025(Saturday)<br />
+                              Time: 10.30AM-11.30AM
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong>MIDAS</strong>. All Rights Reserved
+        </div>
       </div>
-    </section>
-  </main>
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong>MIDAS</strong>. All Rights Reserved
-      </div>
-    </div>
-  </footer>
-  <script src="https://icesic.com/public/assets/lib/jquery/jquery.min.js "
-    type="5bf116088ef5181fcb99bf39-text/javascript "></script>
-  <script src="https://icesic.com/public/assets/lib/jquery/jquery-migrate.min.js "
-    type="5bf116088ef5181fcb99bf39-text/javascript "></script>
-  <script src="https://icesic.com/public/assets/lib/bootstrap/js/bootstrap.bundle.min.js "
-    type="5bf116088ef5181fcb99bf39-text/javascript "></script>
-  <script src="https://icesic.com/public/assets/lib/easing/easing.min.js "
-    type="5bf116088ef5181fcb99bf39-text/javascript "></script>
-  <script src="https://icesic.com/public/assets/lib/superfish/hoverIntent.js "
-    type="5bf116088ef5181fcb99bf39-text/javascript "></script>
-  <script src="https://icesic.com/public/assets/lib/superfish/superfish.min.js "
-    type="5bf116088ef5181fcb99bf39-text/javascript "></script>
-  <script src="https://icesic.com/public/assets/lib/wow/wow.min.js "
-    type="5bf116088ef5181fcb99bf39-text/javascript "></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://icesic.com/public/assets/lib/owlcarousel/owl.carousel.min.js "
-    type="5bf116088ef5181fcb99bf39-text/javascript "></script>
-  <script src="https://icesic.com/public/assets/lib/magnific-popup/magnific-popup.min.js "
-    type="5bf116088ef5181fcb99bf39-text/javascript "></script>
-  <script src="https://icesic.com/public/assets/lib/sticky/sticky.js "
-    type="5bf116088ef5181fcb99bf39-text/javascript "></script>
+    </footer>
+    <script
+      src="https://icesic.com/public/assets/lib/jquery/jquery.min.js "
+      type="5bf116088ef5181fcb99bf39-text/javascript "
+    ></script>
+    <script
+      src="https://icesic.com/public/assets/lib/jquery/jquery-migrate.min.js "
+      type="5bf116088ef5181fcb99bf39-text/javascript "
+    ></script>
+    <script
+      src="https://icesic.com/public/assets/lib/bootstrap/js/bootstrap.bundle.min.js "
+      type="5bf116088ef5181fcb99bf39-text/javascript "
+    ></script>
+    <script
+      src="https://icesic.com/public/assets/lib/easing/easing.min.js "
+      type="5bf116088ef5181fcb99bf39-text/javascript "
+    ></script>
+    <script
+      src="https://icesic.com/public/assets/lib/superfish/hoverIntent.js "
+      type="5bf116088ef5181fcb99bf39-text/javascript "
+    ></script>
+    <script
+      src="https://icesic.com/public/assets/lib/superfish/superfish.min.js "
+      type="5bf116088ef5181fcb99bf39-text/javascript "
+    ></script>
+    <script
+      src="https://icesic.com/public/assets/lib/wow/wow.min.js "
+      type="5bf116088ef5181fcb99bf39-text/javascript "
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://icesic.com/public/assets/lib/owlcarousel/owl.carousel.min.js "
+      type="5bf116088ef5181fcb99bf39-text/javascript "
+    ></script>
+    <script
+      src="https://icesic.com/public/assets/lib/magnific-popup/magnific-popup.min.js "
+      type="5bf116088ef5181fcb99bf39-text/javascript "
+    ></script>
+    <script
+      src="https://icesic.com/public/assets/lib/sticky/sticky.js "
+      type="5bf116088ef5181fcb99bf39-text/javascript "
+    ></script>
 
-  <script src="https://icesic.com/public/assets/contactform/contactform.js "
-    type="5bf116088ef5181fcb99bf39-text/javascript "></script>
+    <script
+      src="https://icesic.com/public/assets/contactform/contactform.js "
+      type="5bf116088ef5181fcb99bf39-text/javascript "
+    ></script>
 
-  <script src="https://icesic.com/public/assets/js/main.js " type="5bf116088ef5181fcb99bf39-text/javascript "></script>
-  <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js "
-    data-cf-settings="5bf116088ef5181fcb99bf39-|49 " defer></script>
+    <script
+      src="https://icesic.com/public/assets/js/main.js "
+      type="5bf116088ef5181fcb99bf39-text/javascript "
+    ></script>
+    <script
+      src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js "
+      data-cf-settings="5bf116088ef5181fcb99bf39-|49 "
+      defer
+    ></script>
 
+    <script>
+      function toggleDetails(index) {
+        var details = document.getElementById("bioDetails" + index);
+        var button = document.getElementById("toggleButton" + index);
 
-  <script>
-    function toggleDetails(index) {
-      var details = document.getElementById("bioDetails" + index);
-      var button = document.getElementById("toggleButton" + index);
-
-      if (details.classList.contains("show")) {
-      
-        details.classList.remove("show");
-        button.textContent = "Show More";
-      } else {
-       
-        details.classList.add("show");
-        button.textContent = "Show Less";
+        if (details.classList.contains("show")) {
+          details.classList.remove("show");
+          button.textContent = "Show More";
+        } else {
+          details.classList.add("show");
+          button.textContent = "Show Less";
+        }
       }
-    }
-
-  </script>
-
-
-</body>
-
+    </script>
+  </body>
 </html>
