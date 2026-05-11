@@ -119,12 +119,28 @@ h6 {
 }
 
 #header {
-    padding: 40px 0;
-  margin-top: 0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 0;
     transition: all .5s;
-    z-index: 997;
+    z-index: 1100;
     background: #fff;
-    box-shadow: 0 6px 9px 0 rgba(0, 0, 0, .06)
+    box-shadow: 0 6px 9px 0 rgba(0, 0, 0, .06);
+}
+
+body {
+    padding-top: 110px;
+}
+
+#header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 #header #logo h1 {
@@ -182,7 +198,47 @@ h6 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    text-align: center
+    text-align: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.count-down-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 980px;
+    margin: 30px auto 0;
+    padding: 20px 20px;
+    background: rgba(255, 255, 255, 0.96);
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.count-down-main .timer {
+    min-width: 90px;
+}
+
+.count-down-main .timer .bg-indigo-600 {
+    width: 100%;
+}
+
+.count-down-main .expired-text {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    color: #0c2e8a;
+    font-weight: 700;
+}
+
+#intro {
+    width: 100%;
+    min-height: 60vh;
+    position: relative;
+    background: url(../img/intro-carousel/1.jpg) no-repeat;
+    background-size: cover;
 }
 
 #intro .intro-content h2 {
@@ -313,19 +369,26 @@ h6 {
 }
 
 #nav-menu-container {
-    float: right;
-    margin: 0
+    float: none;
+    margin: 0;
+}
+
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-menu a {
-    padding: 10px 8px;
+    padding: 10px 15px;
     text-decoration: none;
     display: inline-block;
     color: #555;
     font-family: raleway, sans-serif;
     font-weight: 700;
-    font-size: 14px;
-    outline: none
+    font-size: 16px;
+    outline: none;
 }
 
 .nav-menu li:hover>a,
