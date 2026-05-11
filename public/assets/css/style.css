@@ -15,15 +15,23 @@
     font-size: 28px;
 }
 
+html,
+body,
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     background: #fff;
     color: #444;
-    font-family: open sans, sans-serif
+    font-family: open sans, sans-serif;
 }
 
 a {
     color: #50d8af;
-    transition: .5s
+    transition: .5s;
 }
 
 a:hover,
@@ -1072,30 +1080,65 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media(max-width:768px) {
     .back-to-top {
-        bottom: 15px
+        bottom: 15px;
     }
     #header {
-        padding: 20px 0;
-        height: 74px
+        padding: 18px 0;
+        height: auto;
     }
     #header #logo h1 {
-        font-size: 34px
+        font-size: 34px;
     }
     #header #logo img {
-        max-height: 40px
+        max-height: 40px;
     }
     #nav-menu-container {
-        display: none
+        display: none;
     }
     #mobile-nav-toggle {
-        display: inline
+        display: inline;
     }
     #about .about-img {
-        height: auto
+        height: auto;
     }
     #about .about-img img {
         margin-left: 0;
-        padding-bottom: 30px
+        padding-bottom: 30px;
+    }
+    #header .container {
+        justify-content: space-between;
+    }
+    #mobile-nav {
+        width: 100%;
+        max-width: 320px;
+    }
+    #mobile-nav ul li a {
+        padding: 12px 22px;
+    }
+    #intro {
+        min-height: 55vh;
+    }
+    #intro .intro-content {
+        padding: 0 20px;
+    }
+    #intro .intro-content .btn-get-started,
+    #intro .intro-content .btn-projects {
+        width: 100%;
+        max-width: none;
+        padding: 12px 20px;
+        margin: 10px 0;
+    }
+    .count-down-main {
+        flex-direction: column;
+        gap: 14px;
+        padding: 18px 16px;
+    }
+    #contact .form button[type=submit] {
+        width: 100%;
+    }
+    #contact .form input,
+    #contact .form textarea {
+        width: 100%;
     }
 }
 
@@ -1103,26 +1146,43 @@ body.mobile-nav-active #mobile-nav-toggle {
     #intro .intro-content h2 {
         font-size: 28px;
     }
+    #intro .intro-content p {
+        font-size: 16px;
+    }
     #services .box .box {
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
     #services .box .icon {
         float: none;
         text-align: center;
-        padding-bottom: 15px
+        padding-bottom: 15px;
     }
     #services .box h4,
     #services .box p {
         margin-left: 0;
-        text-align: center
+        text-align: center;
     }
     #testimonials .testimonial-item {
-        margin: 30px 10px
+        margin: 24px 10px;
+    }
+    #portfolio .portfolio-item {
+        padding: 0 8px;
     }
 }
 
 @media(max-width:576px) {
+    #intro .intro-content h2 {
+        font-size: 24px;
+    }
+    #intro .intro-content .btn-get-started,
+    #intro .intro-content .btn-projects {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
     #contact #google-map {
-        margin-top: 20px
+        margin-top: 20px;
+    }
+    #header #logo h1 {
+        font-size: 26px;
     }
 }
